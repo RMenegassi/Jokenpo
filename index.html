@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div class="principal">
+        <h1 class="titulo">Pedra, Papel e Tesoura</h1>
+
+        <div class="placar">
+            <div class="jogador">
+                <h2 id="jogador-nome">Player</h2>
+                <span id="jogador-pontos">0</span>
+                <ul class="jogador-escolha">
+                    <li><a id="jogador-escolha1"><img src="img/pedra.png"></a></li>
+                    <li><a id="jogador-escolha2"><img src="img/papel.png"></a></li>
+                    <li><a id="jogador-escolha3"><img src="img/tesoura.png"></a></li>
+                </ul>
+            </div>
+
+            <div class="versus">
+                VS
+            </div>
+
+            <div class="computador">
+                <h2 id="computador-nome">Computador</h2>
+                <span id="computador-pontos">0</span>
+                <ul class="computador-escolha">
+                    <li><a id="computador-escolha1"><img src="img/pedra.png"></a></li>
+                    <li><a id="computador-escolha2"><img src="img/papel.png"></a></li>
+                    <li><a id="computador-escolha3"><img src="img/tesoura.png"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="mensagem">
+            Bem Vindo!
+        </div>
+
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+</html>

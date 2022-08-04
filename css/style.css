@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: default;
+}
+
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    color: #2D3436;
+    padding: 20px 0 ;
+}
+
+.placar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogador, .computador{
+    position: relative;
+    flex-grow: 1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#jogador-nome, #computador-nome{
+     font-size: 24px;
+}
+
+#computador-nome{
+    text-align: right;
+}
+
+.jogador{
+    background-color: #FE7675;
+    margin: 0 0 0 10px;
+}
+
+#jogador-pontos, #computador-pontos{
+    font-size: 42px;
+    position: absolute;
+    top: 8px;
+}
+
+#jogador-pontos{
+    right: 20px;
+}
+
+
+.jogador .jogador-escolha, .computador .computador-escolha{
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.jogador .jogador-escolha li, .computador .computador-escolha li{
+    display: inline;
+    padding: 0 15px;
+}
+
+.jogador .jogador-escolha a, .computador .computador-escolha a{
+    opacity: 0.2;
+}
+
+.jogador .jogador-escolha a:hover, .computador .computador-escolha .selecionado{
+    opacity: 1;
+}
+
+.jogador .jogador-escolha img, .computador .computador-escolha img{
+    max-width: 80px;
+}
+
+.versus{   
+    font-size: 80px; 
+    padding: 0 40px;
+}
+
+.computador{
+    background-color: #3498DB;
+    margin: 0 10px 0 0;
+}
+
+#mensagem{
+    background-color: #646E72;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
